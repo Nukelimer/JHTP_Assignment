@@ -7,6 +7,7 @@ public class AccountTest {
     public static void main(String[] args) {
 
         Account user1 = new Account("Remi Egwuda", 200);
+        Account user2 = new Account("John  Doe", 322220);
 
 
 

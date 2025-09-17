@@ -8,6 +8,7 @@ public class Car {
     private double price;
 
 
+    static double discountx;
 
     public Car(double price, String year, String model){
        this.year = year;
@@ -61,8 +62,8 @@ public class Car {
     public double carDiscount(double discountAmount){
 
         double discount = price * (discountAmount/100.0);
-
         this.price = this.price - discount;
+        discountx = discountAmount;
         return this.price;
     }
 
