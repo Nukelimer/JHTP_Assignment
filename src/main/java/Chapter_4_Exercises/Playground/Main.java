@@ -96,35 +96,52 @@ public class Main {
 //            System.out.println("Bonus to instructor!");
 //        }}
 
+//    public static void main(String[] args) {
+//
+//        double x = (double) 2.0;
+//        while (true){
+//            x *= 100009999999999999000000000090000000099999d;
+//            if (x >= 22222222223333333333333333333333333333333333333333d){
+//                break;
+//            }
+//            System.out.println(x);
+//
+//        }
+//
+//
+//
+//
+//
+//
+//
+//        int bagsOfRice = 5;           // You have 5 bags
+//        int report = ++bagsOfRice;
+//
+//
+//
+//
+//        System.out.println(bagsOfRice);
+//        System.out.println();
+//        System.out.println(report);
+//
+//
+//    }
+//
+//}
+
+
+
     public static void main(String[] args) {
+       int x =5;
+       int y = 7;
 
-        double x = (double) 2.0;
-        while (true){
-            x *= 100009999999999999000000000090000000099999d;
-            if (x >= 22222222223333333333333333333333333333333333333333d){
-                break;
+        if (y == 8){
+            if (x == 5)
+                System.out.println("@@@@@");
+        }else {
+                System.out.println("#####");
+                System.out.println("$$$$$");
+                System.out.println("&&&&&");
             }
-            System.out.println(x);
-
-        }
-
-
-
-
-
-
-
-        int bagsOfRice = 5;           // You have 5 bags
-        int report = ++bagsOfRice;
-
-
-
-
-        System.out.println(bagsOfRice);
-        System.out.println();
-        System.out.println(report);
-
-
     }
-
-}
+    }
