@@ -52,6 +52,140 @@ public class Playground {
 //
 //
 
+int i;
+//        for (i = 0; i < 10 ; i++) {
+//            if (i == 3){
+//                break;
+//            }
+//            System.out.println(i);
+//        }
+
+//        for (i = 0; i < 10 ; i++) {
+//            if (i == 3){
+//                continue;
+//            }
+//            System.out.println(i);
+//        }
+
+//        int j = 0;
+//        while (j < 10){
+//            j++;
+//            if (j == 6)continue;
+//            System.out.println(j);
+//        }
+//
+//
+//        System.out.println(j);
+
+//        int a = 4;
+//        int b = 4;
+//
+//
+//        if (a>3 && b>7){
+//        System.out.println("Babs");
+//        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      String myName = "Faith";
+
+      myName = 4;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        int age = 64;
+        boolean birthday = false;  // left side = false
+
+//        if (birthday == !true && ++age >= 65) {
+//            System.out.println("Senior");
+//        }
+//        System.out.println("Age = " + age);
+
+
+//
+//        if (!age  ){
+//
+//        }
+
+
+
+
 
     }
 }
