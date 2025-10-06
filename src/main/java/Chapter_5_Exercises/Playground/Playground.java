@@ -101,9 +101,6 @@ int i;
 
 
 
-      String myName = "Faith";
-
-      myName = 4;
 
 
 
@@ -115,14 +112,13 @@ int i;
 
 
 
-
-
-
-
-
-
-
-
+        String cmd = "true";
+        switch (cmd) {
+            case "true": System.out.println("Starting...");
+            case "false": System.out.println("Stopping...");
+            default:
+                System.out.println("Stng...");
+        }
 
 
 
