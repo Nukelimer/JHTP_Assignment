@@ -6,6 +6,11 @@ public class ExtremesBetweenTwoNumbers {
 
 
     public static void main(String[] args) {
+
+        String question = "(Extremes) Write an application that finds the minimum and maximum amongst several\n" +
+                "integers and then computes the sum of the two extremes. The user will be prompted to input how\n" +
+                "many values the application should ask the user to input.";
+
         Scanner scanner = new Scanner(System.in);
         int numberOfNumbersCount = 0;
 
@@ -15,9 +20,9 @@ public class ExtremesBetweenTwoNumbers {
        while (isValidNumber){
         System.out.print("What is the numbers of number you want to enter: ");
         numberOfNumbersCount = scanner.nextInt();
-
        if (numberOfNumbersCount > 1){
-         isValidNumber = false;
+
+           isValidNumber = false;
 
        }
 
