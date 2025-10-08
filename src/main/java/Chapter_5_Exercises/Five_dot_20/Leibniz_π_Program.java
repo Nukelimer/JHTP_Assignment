@@ -1,6 +1,6 @@
 package Chapter_5_Exercises.Five_dot_20;
 
-public class CalculatingTheValueOf {
+public class Leibniz_π_Program {
     public static void main(String[] args) {
 
         int count = 1;
@@ -10,7 +10,7 @@ public class CalculatingTheValueOf {
         int terms = 200_000;
 
 
-        while (count < terms){
+        while (count <= terms){
          if (count % 2 == 1)  {
              pi = pi + 4.0 / denominator;
          } else {
@@ -22,9 +22,9 @@ public class CalculatingTheValueOf {
          denominator = denominator + 2.0;
 
 
-         if (count % 10_000 == 0 || count <= 999){
              System.out.printf("%-10d%-15.10f%n", count, pi);
-         }
+//         if (count % 10_000 == 0 || count <= 999){
+//         }
 
 
             if (!found && Math.floor(pi * 100000) == 314159) {
