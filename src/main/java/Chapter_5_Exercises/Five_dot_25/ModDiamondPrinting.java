@@ -28,6 +28,8 @@ program should then display a diamond of the appropriate size.*/
 
         int middle = numberOfRows / 2 + 1;
 
+        System.out.println(middle);
+
         for (int row = 1; row <= middle; row++){
 
             for (int space = row; space < middle; space++){
