@@ -19,6 +19,9 @@ public class Main {
         float xy = 4.4F;
         System.out.println(Math.negateExact((int)xy));
 
+
+
+
     }
 
 

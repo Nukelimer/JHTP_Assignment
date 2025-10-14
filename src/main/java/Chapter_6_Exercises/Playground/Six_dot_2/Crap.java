@@ -1,4 +1,4 @@
-package Chapter_6_Exercises.Six_dot_2;
+package Chapter_6_Exercises.Playground.Six_dot_2;
 
 import java.security.SecureRandom;
 
