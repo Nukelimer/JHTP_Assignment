@@ -10,8 +10,12 @@ public class SphereVolume {
         System.out.print("What is the radius of the sphere?: ");
         double radius = scanner.nextDouble();
 
+        System.out.printf("Result: %f", sphereVolume(radius));
 
-        double volume = (4.0 / 3.0) * Math.PI * Math.pow(radius, 3);
-        System.out.println(volume);
+    }
+
+    public static double sphereVolume (double radius){
+        return   (4.0 / 3.0) * Math.PI * Math.pow(radius, 3);
+
     }
 }
