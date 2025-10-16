@@ -1,0 +1,30 @@
+package Chapter_6_Exercises.Six_dot_20;
+
+import java.util.Scanner;
+
+public class LeapYearCalculator {
+/*(Test for Leap Year) Write an application that prompts the user to enter an year and uses a
+method called isLeapYear to check whether it is a leap year.*/
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter any year to check if it's a leap year i.e 2002, 1982: ");
+        int userYear = scanner.nextInt();
+
+        if ((double)userYear % 4 == 0 && (double)userYear % 100 == 0 && (double)userYear % 400 ==0){
+            System.out.println();
+            System.out.println();
+            System.out.println();
+            System.out.printf("Yaaaayyy year %d is a leap year \uD83C\uDF8A \uD83C\uDF8A!", userYear);
+
+        } else {
+            System.out.println();
+            System.out.println();
+            System.out.println();
+            System.out.printf("Oops, year %d is not a leap year \uD83D\uDE10\uFE0F!", userYear);
+        }
+
+    }
+
+
+}
