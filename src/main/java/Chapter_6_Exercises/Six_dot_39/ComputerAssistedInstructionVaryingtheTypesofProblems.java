@@ -114,14 +114,14 @@ public class ComputerAssistedInstructionVaryingtheTypesofProblems {
                     }
                 }
 
-                System.out.println(); // spacing
+                System.out.println();
             }
 
-            // After 10 questions, show performance
+
             showPerformance();
         }
 
-        /** Displays student performance and decides whether to continue */
+
         private static void showPerformance() {
             double percentageOfCorrectAnswers = (entriesCounterCorrect / (double) entriesCounter) * 100;
 
@@ -134,7 +134,7 @@ public class ComputerAssistedInstructionVaryingtheTypesofProblems {
                 System.out.println("Congratulations, you are ready to go to the next level!");
             }
 
-            // Ask if player wants to play again
+
             System.out.print("\nDo you want to play again? (1 for YES, 2 for NO): ");
             int playAgain = scanner.nextInt();
             if (playAgain == 1) {
@@ -144,7 +144,7 @@ public class ComputerAssistedInstructionVaryingtheTypesofProblems {
             }
         }
 
-        /** Resets counters and starts a new round */
+
         private static void restart() {
             entriesCounter = 0;
             entriesCounterCorrect = 0;
