@@ -65,7 +65,22 @@ public class ComputerAssistedInstructionVaryingtheTypesofProblems {
                 }
 
 
-                System.out.printf("How much is %d times %d? ", firstNum, secondNum);
+              if (mathProblemPicker == 1){
+                  System.out.printf("How much is %d plus %d? ", firstNum, secondNum);
+              } else if (mathProblemPicker == 2) {
+                  System.out.printf("How much is %d minus %d? ", firstNum, secondNum);
+              } else if (mathProblemPicker == 3) {
+                  System.out.printf("How much is %d times %d? ", firstNum, secondNum);
+              } else if (mathProblemPicker == 4) {
+                  System.out.printf("How much is %d divided by %d? ", firstNum, secondNum);
+
+              } else {
+
+                  System.out.println("Restart by reloading");
+                  return;
+              }
+
+
                 int studentInput = scanner.nextInt();
 
                 boolean isAnswerCorrect = false;
@@ -79,9 +94,9 @@ public class ComputerAssistedInstructionVaryingtheTypesofProblems {
                         } else if (mathProblemPicker == 4) {
                             isAnswerCorrect =(studentInput == (firstNum / secondNum));
                         } else if (mathProblemPicker == 5) {
-                            int rnadomMathType = secureRandom.nextInt(4) + 1;
+                            int randomMathType = secureRandom.nextInt(4) + 1;
 
-                            switch (rnadomMathType){
+                            switch (randomMathType){
                                 case 1 ->  isAnswerCorrect =(studentInput == (firstNum + secondNum));
                                 case 2 ->  isAnswerCorrect =(studentInput == (firstNum - secondNum));
                                 case 3 ->  isAnswerCorrect =(studentInput == (firstNum * secondNum));
