@@ -1,6 +1,6 @@
 package Chapter_7_Exercises.Playground.Seven_dot_3;
 
-public class InitArray {
+public class InitArrayUsingArrayInit {
 
     public static void main(String[] args) {
         int[] newArray = {1,2,3,4,55,7,9,9,1,4,45,9,5,8,34,65,7};
