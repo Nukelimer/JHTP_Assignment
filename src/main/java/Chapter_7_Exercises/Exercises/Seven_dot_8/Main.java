@@ -108,12 +108,20 @@ e) Compute the product of the third to the tenth elements, both inclusive, in a 
         };
 
         int product = 1;
+//
+//        for (int i = 2; i <= 9; i++) {
+//
+//
+//                product *= w[i];
+//
+//        }
 
-        for (int i = 2; i <= 9; i++) {
+        for (int i = 0; i < w.length; i++) {
 
-
+            if (i > 1 && i <= 9){
                 product *= w[i];
-
+                System.out.println(i);
+            }
         }
 
         System.out.println(product);
