@@ -4,8 +4,8 @@ public class Employee {
 
     private static int count = 0;
 
-    private String firstName;
-    private String lastName;
+    private final String firstName;
+    private final String lastName;
 
     public Employee(String firstName, String lastName){
 
@@ -27,4 +27,6 @@ public class Employee {
     public static int getCount() {
         return count;
     }
+
+
 }

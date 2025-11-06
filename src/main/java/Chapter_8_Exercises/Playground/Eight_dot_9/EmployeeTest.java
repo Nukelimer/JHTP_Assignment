@@ -1,9 +1,13 @@
 package Chapter_8_Exercises.Playground.Eight_dot_9;
+import static java.lang.Math.*;
+import static java.lang.Integer.*;
 
 public class EmployeeTest {
 
     public static void main(String[] args) {
+
         System.out.printf("Employees before instantiation: %d%n", Employee.getCount());
+
 
         Employee e1 = new Employee("Susan", "Baker");
         Employee e2 = new Employee("Bob", "Blue");
@@ -13,6 +17,8 @@ public class EmployeeTest {
         System.out.printf("%nEmployee 1: %s %s%nEmployee 2: %s %s%n",
                 e1.getFirstName(), e1.getLastName(),
                 e2.getFirstName(), e2.getLastName());
+
+
 
     }
 }
