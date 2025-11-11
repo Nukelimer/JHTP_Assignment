@@ -22,8 +22,8 @@ number of digits of precision to the right of the decimal point.)*/
 
 
 public class RationalNumber {
-private int numerator;
-private int denominator;
+private final int numerator;
+private final int denominator;
 
 
 public RationalNumber(int numerator, int denominator){
@@ -110,6 +110,9 @@ public  static RationalNumber multiply (RationalNumber r1, RationalNumber r2){
         return String.format(str, (double) numerator / denominator);
 
     }
+
+
+
 
 
 
