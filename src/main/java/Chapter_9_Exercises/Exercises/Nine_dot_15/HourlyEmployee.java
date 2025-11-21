@@ -50,7 +50,18 @@ public class HourlyEmployee extends Employee {
 
     public double earnings(){
 
-        return hour * wage;
+      if (hour <= 40){
+          return hour * wage;
+      }
+      else{
+          double regularPay = 40 * wage;
+          double overTimeHour = hour - 40;
+          double overTimeRate = wage * 1.5;
+          double result = overTimeHour * overTimeRate;
+          return regularPay + result;
+      }
+
+
     }
 
     @Override
