@@ -1,6 +1,6 @@
 package Chapter_10_Exercises.Playground.Ten_dot_2;
 
-public abstract class Employee {
+public abstract class Employee implements Payable {
     private final String firstName;
     private final String lastName;
     private final String socialSecurityNumber;
@@ -23,6 +23,11 @@ public abstract class Employee {
         return String.format("%s %s%nsocial security number: %s",
                 getFirstName(), getLastName(), getSocialSecurityNumber());
     }
-    // abstract method must be overridden by concrete subclasses
+//    // abstract method must be overridden by concrete subclasses
     public abstract double earnings(); // no implementation here
+
+    @Override
+    public double getPaymentAmount() {
+        return earnings();
+    }
 }

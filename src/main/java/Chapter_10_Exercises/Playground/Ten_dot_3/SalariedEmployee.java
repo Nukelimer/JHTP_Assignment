@@ -1,6 +1,9 @@
-package Chapter_10_Exercises.Playground.Ten_dot_2;
+package Chapter_10_Exercises.Playground.Ten_dot_3;
 
-public class SalariedEmployee extends Employee implements Payable, Chapter_10_Exercises.Playground.Ten_dot_3.Payable {
+import Chapter_10_Exercises.Playground.Ten_dot_2.Employee;
+import Chapter_10_Exercises.Playground.Ten_dot_2.Payable;
+
+public class SalariedEmployee extends Employee implements Payable {
     private double weeklySalary;
     public SalariedEmployee(String firstName, String lastName,
                             String socialSecurityNumber, double weeklySalary) {
@@ -31,8 +34,4 @@ public class SalariedEmployee extends Employee implements Payable, Chapter_10_Ex
                 super.toString(), "weekly salary", getWeeklySalary());
     }
 
-    @Override
-    public String getDescription() {
-        return Chapter_10_Exercises.Playground.Ten_dot_3.Payable.super.getDescription();
-    }
 }

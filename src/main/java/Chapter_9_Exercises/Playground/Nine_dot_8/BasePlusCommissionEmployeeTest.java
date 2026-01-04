@@ -1,4 +1,4 @@
-package Chapter_9_Exercises.Playground.Nine_dot_7.Nine_dot_6;
+package Chapter_9_Exercises.Playground.Nine_dot_8;
 
 import Chapter_9_Exercises.Playground.Nine_dot_5.BasePlusCommissionEmployee;
 

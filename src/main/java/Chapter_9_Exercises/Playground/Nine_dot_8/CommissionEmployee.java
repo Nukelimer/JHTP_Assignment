@@ -1,4 +1,4 @@
-package Chapter_9_Exercises.Playground.Nine_dot_7.Nine_dot_6;
+package Chapter_9_Exercises.Playground.Nine_dot_8;
 
 public class CommissionEmployee extends Object {
     private final String firstName;
